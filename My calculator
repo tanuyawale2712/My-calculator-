@@ -1,0 +1,12 @@
+#include <stdio.h>
+int main() {
+    int a, b;
+    char op;
+    printf("Enter Numbers: ");
+    scanf("%d %c %d", &a, &op, &b);
+    if(op=='+') printf("Answer = %d", a+b);
+    if(op=='-') printf("Answer = %d", a-b);
+    if(op=='*') printf("Answer = %d", a*b);
+    if(op=='/') printf("Answer = %d", a/b);
+    return 0;
+}
